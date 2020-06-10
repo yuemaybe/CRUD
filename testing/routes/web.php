@@ -40,3 +40,8 @@ Route::patch('update/{account}', 'TestController@showEdit');
 Route::get('Q1', 'TestController@showPage');
 
 Route::any('search' , 'TestController@showSearch');
+Auth::routes();
+
+Route::get('/home', 'HomeController@index')->name('home');
+
+Route::any('test' , 'TestController@testUser');

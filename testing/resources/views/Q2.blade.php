@@ -1,3 +1,5 @@
+@extends('layouts.app')
+@section('content')
 <!DOCTYPE html>
 
 <html>
@@ -7,6 +9,12 @@
         <title>Q2</title>
     </head>
     <body>
+    <div class="container">
+    <div class="row justify-content-center">
+    <div class="col-md-8">
+    <div class="card">
+    <div class="card-body">
+    
         <table border='1'>
             <tr>
                 <td>account</td>
@@ -57,5 +65,13 @@
     <input type='text' name='search' />
     <button type='submit'>開搜</button>
 </form>
+<br>
+
+    </div>
+    </div>
+    </div>
+    </div>
+    </div>
     </body>
 </html>
+@endsection
