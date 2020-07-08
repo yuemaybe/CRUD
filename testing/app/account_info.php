@@ -19,7 +19,7 @@ class account_info extends Model
         $email = $rq->input('email');
         $note = $rq->input('note');
 
-        $test = 123;
+        $test = 12345660000;
 
         $this -> account = $account;
         $this -> name = $name;
